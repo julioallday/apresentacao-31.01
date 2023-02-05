@@ -7,7 +7,6 @@
   --card-color: #444444;
   --border-color: #e23237;
 }
-
 * {
   color: var(--font-color);
 }
@@ -120,6 +119,7 @@ h3 {
   padding: 12px;
   border-style: solid;
   border-width: 1px;
+  
 }
 q {
   color: var(--font-color);
@@ -136,13 +136,14 @@ section p {
   font-size: 22px;
 }
 svg {
- 
   position: fixed;
   bottom: 6vh;
   right: 9vw;
   background-color: var(--font-color);
   border-radius: 15%;
   width: 100px;
+  opacity: 0.6;
+  transition-duration: 500ms;
 }
 #mostrar{
   display: none;
@@ -150,8 +151,13 @@ svg {
   bottom: 15vh;
   right: 9vw;
   font-size: 24px;
+  font-weight: 700;
 }
 
 #passar_mouse:hover #mostrar{
   display:block;
+  }
+#passar_mouse:hover svg{
+  transition-duration: 1s;
+  opacity: 1;
   }
