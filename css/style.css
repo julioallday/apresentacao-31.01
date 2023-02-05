@@ -1,35 +1,33 @@
-:root{
-    --background-color: #2B2C2D;
-    --font-color: #DAFAFA;
-    --title-color:#38D0F2;
-    --navbar-color:#0D47A1;
-    --description-color:#303030;
-    --card-color:#444444;
-    --border-color:#E23237;
-}   
+:root {
+  --background-color: #2b2c2d;
+  --font-color: #dafafa;
+  --title-color: #38d0f2;
+  --navbar-color: #0d47a1;
+  --description-color: #303030;
+  --card-color: #444444;
+  --border-color: #e23237;
+}
 
 * {
   color: var(--font-color);
 }
 @media only screen and (max-width: 900px) {
-    h1 {
-        font-size: 20px;
-    }
-    .logo img{
-        width: 42px;
-    }
-    .apresentacao{
-        width: 20vw;
-    }
-    .apresentacao section{
-        width:291px;
-    }
-    q{
-        font-size: 24px;
-    }
+  h1 {
+    font-size: 20px;
   }
-
-
+  .logo img {
+    width: 42px;
+  }
+  .apresentacao {
+    width: 20vw;
+  }
+  .apresentacao section {
+    width: 291px;
+  }
+  q {
+    font-size: 24px;
+  }
+}
 body {
   display: block;
   box-sizing: border-box;
@@ -39,7 +37,6 @@ body {
   max-height: 100vh;
   background-color: var(--background-color);
 }
-
 header {
   display: flex;
   justify-content: space-around;
@@ -49,37 +46,31 @@ header {
   border-width: 2px;
   margin-bottom: 20px;
 }
-
 header img {
   width: 80px;
   margin: 8px;
 }
-
 h1 {
   margin: 12px;
   width: fit-content;
-  color: var(--title-color)
+  color: var(--title-color);
 }
-h3{
-    color: var(--title-color);
+h3 {
+  color: var(--title-color);
 }
-
 .links {
   display: flex;
   align-items: center;
   gap: 10px;
 }
-.links img{
-    width:37px;
-    margin: 2px;
+.links img {
+  width: 37px;
+  margin: 2px;
 }
-
 .logo {
   display: flex;
   align-items: center;
-  
 }
-
 .apresentacao {
   display: flex;
   flex-direction: column-reverse;
@@ -94,7 +85,6 @@ h3{
   border-style: solid;
   border-width: 1px;
 }
-
 .apresentacao section {
   padding: 18px;
   margin-bottom: 100px;
@@ -104,7 +94,6 @@ h3{
   border-width: 1px;
   border-color: rgb(155, 154, 153);
 }
-
 .imagem {
   display: flex;
   flex-direction: column;
@@ -116,7 +105,6 @@ h3{
   border-width: 1px;
   border-color: rgb(155, 154, 153);
 }
-
 .imagem blockquote {
   font-size: 24px;
   color: rgb(255, 255, 255);
@@ -126,19 +114,17 @@ h3{
   border-style: solid;
   border-width: 1px;
 }
-q{
-    color: var(--font-color);
+q {
+  color: var(--font-color);
 }
-
 .imagem img {
   width: 70%;
   margin-top: 18px;
   border-radius: 100%;
   border-width: 5px;
   border-style: solid;
-  border-color: var(--title-color);
+  border-color: #dafafa;
 }
-
 section p {
   font-size: 22px;
 }
